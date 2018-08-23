@@ -18,3 +18,14 @@ body{
     opacity: 0.8;
     box-shadow: 0 0 50px rgba(0,0,0,0.6)
 }
+.new-task-container{
+    margin-bottom: 40px;
+}
+.tasks-container ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-task{
+    margin-bottom: 10px;
+}
