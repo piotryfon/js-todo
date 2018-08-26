@@ -2,7 +2,7 @@ html, body{
     height: 100%;
 }
 body{
-    background: url("./img/background-01.png") no-repeat;
+    background: url("./img/design-0.jpg") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
