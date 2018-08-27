@@ -19,3 +19,11 @@ function prepareTaskHTML(title){
         </div>`
         )
 }
+
+function bindNewTaskEvents(){
+    newTaskForm.addEventListener("submit", function(e){
+        e.preventDefault();
+        let title = this.querySelector("input").value;
+        addNewTask(title);
+    });
+}
