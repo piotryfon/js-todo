@@ -10,7 +10,7 @@ toggleCompleteBtn.addEventListener("click", function(){
     toggleTaskComplete(this);
 });
 deleteBtn.addEventListener("click", function(){
-    deleteTask();
+    deleteTask(this);
 
 });
     taskContainer.appendChild(taskLi);
