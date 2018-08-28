@@ -4,3 +4,10 @@ function showTasks(){
         addNewTask(title)
     })
 }
+
+function toggleTaskComplete(task){
+    task.classList.toggle("btn-success")
+}
+function deleteTask(){
+
+}
