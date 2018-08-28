@@ -1,22 +1,18 @@
-html, body{
-    height: 100%;
-}
 body{
-    background: url("./img/design-0.jpg") no-repeat;
+    background: url("./img/background-2.png") repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-
+    margin: 0;
 }
 .app-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 600px;
     width: 100%;
     padding: 20px;
-    background-color: #fff;
-    opacity: 0.8;
-    box-shadow: 0 0 50px rgba(0,0,0,0.6)
+    background-color:#00c3ff;
+    border-radius: 10px;
 }
 .new-task-container{
     margin-bottom: 40px;
